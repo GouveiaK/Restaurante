@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        header{
+            display: flex;
+            height: 70px;
+            background-color: rgb(26, 18, 70);
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 40px;
+            text-shadow: 0px 0px 10px rgb(183, 102, 253), 0px 0px 25px rgb(202, 148, 250);
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+        }
+        li{
+            padding: 10px;
+        }
+        main{
+            width: 800px;
+            margin: 0 auto;
+        }
+        h2{
+            text-align: center;
+            padding: 10px;
+            padding-top: 150px;
+        }
+        p{
+            text-align: justify;
+            padding: 5px 20px;
+        }
+        .listaitens{
+            display: flex;
+            background-color: rgb(26, 18, 70);
+            justify-content: space-around;
+            border-top: 1px solid rgba(255, 255, 255, 0.144);
+        }
+        .menufixo{
+            position: fixed;
+            overflow: hidden;
+            width: 100%;
+        }
+        img{
+            width: 100%;
+            height: 450px;
+            padding: 50px;
+            border-radius: 60px;
+        }
+        .restaurante{
+            width: 100%;
+            height: 650px;
+            background: url(img/restaurante.jpg) no-repeat center / cover;
+        }
+        body{
+            background-color: rgb(24, 2, 43);
+            color: white;
+        }
+        @media (max-width: 500px) {
+            main{
+                width: 400px;
+            }
+            img{
+                height: 200px;
+                padding: 0;
+                border-radius: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="menufixo">
+        <header>
+            <a href="#topo">Restaurante Lago'Z</a>
+        </header>
+        <div class="listaitens">
+            <a href="#arroz">Arroz</a><a href="#feijao">Feijão</a><a href="#salada">Salada</a><a href="#batata">Batata</a><a href="#frango">Frango</a>
+        </div>
+    </div>
+    <div class="restaurante" id="topo"></div>
+    </div>
+    <main>
+            <h2 id="arroz">Arroz</h2>
+            <img src="img/arroz.jfif" alt="arroz">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <h2 id="feijao">Feijão</h2>
+           <img src="img/feijao.jpg" alt="feijao">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <h2 id="salada">Salada</h2>
+           <img src="img/salada.jpg" alt="salada">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <h2 id="batata">Batata</h2>
+           <img src="img/batata.jfif" alt="batata">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <h2 id="frango">Frango</h2>
+           <img src="img/frango.jpg" alt="frango">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis hic aperiam non quisquam saepe suscipit illo quidem dicta aspernatur sint nihil et dolorem, eligendi eos eveniet. Sapiente, sint ducimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam dolore at dolorum, doloribus explicabo ex corrupti molestiae consequatur debitis esse earum, quod quisquam dignissimos sapiente consectetur autem neque! Minus!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt ex molestias perspiciatis, aliquid, quae corrupti reiciendis, amet iste dolorem modi reprehenderit eius quibusdam illo dolorum in assumenda hic maiores!</p>
+
+    </main>
+    
+</body>
+</html>
